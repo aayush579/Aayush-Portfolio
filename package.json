@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "react-scripts"
+  "start": "react-scripts start"
+  "build": "react-scripts build"
+    "serve": "react-scripts preview"
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
@@ -19,11 +20,5 @@
     "postcss": "^8.4.24",
     "tailwindcss": "^3.4.1",
     "vite": "^5.2.0"
-  }
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
   }
 }
